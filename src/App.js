@@ -1,12 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Contact from './components/Contact';
+import Landing from './components/LandingPg';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      {/* The landing page of my portfolio goes here
-      it will have Resume, About Me, Projects, & Contact */}
+    <div>
+      <Header />
+      <Landing />
+      <Footer />
+      <Contact />
+      
     </div>
   );
 }
