@@ -9,7 +9,7 @@ function Contact(props) {
                     <h1>Contact Me</h1>
                     <hr />
                     <div className="row">
-                        <div class="col-md-9 d-flex justify-content-center">
+                        <div className="col-md-9 d-flex justify-content-center">
 
                             <p>E-mail Me: </p> <a id="emailLink" href="mailto: mar0099887@gmail.com">  mar0099887@gmail.com</a>
 
