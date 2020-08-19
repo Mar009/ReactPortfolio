@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  padding: 0px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0px;
+  border-bottom: 2px solid lightgray;
+}
+
+.navbar-brand { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: white !important;
+  background: #734d88;
+  height: 100%;
+  padding: 20px;
+}
+.nav-item { 
+  border-right: 1px solid lightgray;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 2px;
+}
+span {
+  size: 55px;
+  margin-top: 14px;
+  color: lightgray;
+}
+
+.col-sm-9 {
+  border: 1.5px solid lightgray;
+  padding: 0px;
+}
+
+.profilePhoto {
+  float: left;
+  height: 200px;
+  width: auto;
+  
+}
+hr{
+  border-top: 2px solid lightgray;
+  color: lightgray;
+}
+
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#734d88;
+  font-weight: bold;
+}
+.footer{
+  width: 100%;
+  height: 40px;
+
+  border-top: 5px solid #734d88;
+  color: white;
+  background-color: #734d88;
+  padding-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn.btn-dark {
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #222;
+}
+#emailLink{
+  color: rgb(60, 235, 147);
+}
+
+@media only screen and (max-width: 600px) {
+ .col-sm-9 {
+     border: 1.5px solid lightgray;
+     padding: 0px;
+     margin: 0px 5px 0px 5px;
+ }
+
+}
